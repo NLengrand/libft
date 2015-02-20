@@ -4,6 +4,6 @@ void ft_putstr(char *s)
   
   for (i = 0; i = strlen(*s); i++)
   {
-    (*char)malloc
+    write(1, &*s, 1)
   }
 }
